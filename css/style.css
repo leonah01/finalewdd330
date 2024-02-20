@@ -17,7 +17,7 @@ body {
     text-align: center;
     width: 100%;
     max-width: 420px;
-    background-color: #8504a5;
+    background-color: #0930dd;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -42,22 +42,22 @@ body {
     padding: 10px 15px;
     cursor: pointer;
   }
-  .wethearDate{
+  /*.wethearDate{
     font-size: 14px;
     margin-bottom: 2rem;
-  }
+  }*/
   .weatherForecast{
     display: inline-block;
     padding: 0.5rem 1rem;
     border-radius: 30px;
   }
-  .weatherIcon img{
+  .weather-Icon img{
     width: 100px;
   }
   .weatherTemperature{
     font-size: 1.75rem;
   }
-  .weatherInfo P{
+  .weather-Info P{
     font-size: 20px;
     color: #fff;
   }
@@ -87,7 +87,7 @@ body {
     grid: gap 1rem;
     margin-top: 3rem;
   }
-  .wethearUnits{
+  /*.wethearUnits{
     font-size: 15rem;
   }
   .wethearUnits span{
@@ -95,7 +95,7 @@ body {
   }
   .wethearUnits span:first-child{
     margin-right: 0.5rem;
-  }
+  }*/
   .weatherCard{
     display: flex;
     grid-template-columns: repeat(2, 1fr);

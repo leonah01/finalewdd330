@@ -1,13 +1,13 @@
 function getWeather() {
     const apiKey = 'afec42bc2c2331ca0e28c0172324f903';
-    const cityInput = document.getElementById('cityInput');
-    const weatherInfo = document.getElementById('weatherInfo');
+    const cityInput = document.getElementById('city-Input');
+    const weatherInfo = document.getElementById('weather-Info');
     const locationElement = document.getElementById('location');
     const temperatureElement = document.getElementById('temperature');
     const descriptionElement = document.getElementById('description');
     const humidityElement = document.querySelector('humidity-value');
     const windElement = document.querySelector('wind-value');
-    const weatherIcon = document.querySelector('weatherIcon');
+    const weatherIcon = document.querySelector('weather-Icon');
   
     
 
